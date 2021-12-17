@@ -1,5 +1,16 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 html {
     }
 body{
     background-color: rgb(252, 244, 244);
     }
+.round-border {
+    border-radius:40%;
+    border-width: 3px;
+}
+.Raleway-font{
+    font-family: Raleway, monospace;
+    font-size: 25 px;
+}
