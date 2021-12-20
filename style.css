@@ -9,8 +9,14 @@ body{
 .round-border {
     border-radius:40%;
     border-width: 3px;
-}
+    }
 .Raleway-font{
     font-family: Raleway, monospace;
     font-size: 25 px;
-}
+    }
+.nav-github{
+    }
+.nav-LinkedIn{
+    }
+.nav-resume{
+    }
