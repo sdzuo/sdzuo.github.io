@@ -22,3 +22,6 @@ body{
     }
 .nav-email{
     }
+.nav-github:hover, .nav-LinkedIn:hover, .nav-resume:hover, .nav-email:hover {
+    color: grey
+}
