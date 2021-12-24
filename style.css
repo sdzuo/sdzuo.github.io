@@ -24,7 +24,7 @@ body{
     }
 .nav-github:hover, .nav-LinkedIn:hover, .nav-resume:hover, .nav-email:hover {
     color: grey
-}
-.footer-style {
+    }
+.footer-style{
     font-size: 10 px;
-}
+    }
