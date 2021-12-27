@@ -5,6 +5,7 @@ html {
     }
 body{
     background-color: rgb(252, 244, 244);
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
     }
 .round-border {
     border-radius:40%;
