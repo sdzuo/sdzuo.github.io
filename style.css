@@ -51,6 +51,5 @@ div.skills:first-line, div.software:first-line, div.contact:first-line {
     font-weight: bold;
 	}
 .footer-style{
-    font-size: 10 px;
-    position: absolute;
+    padding-bottom: 1rem;
     }
