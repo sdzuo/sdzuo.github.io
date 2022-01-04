@@ -1,12 +1,9 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 html {
+	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
     }
 body{
     display: flex;
     flex-flow: column-wrap;
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
     align-content: center;
     align-items: center;	
 	    max-width: 100%;
@@ -16,11 +13,10 @@ body{
 header{
     text-align:center;
     font-size: 3rem;
-div.skills:first-line, div.software:first-line, div.contact:first-line {
-    text-decoration: underline;
-    font-weight: bold;
     }
 .job-title{
+	font-size: 1.5 rem;
+	margin: 0px;
     }
 .skills{
     }
@@ -50,6 +46,10 @@ div.skills:first-line, div.software:first-line, div.contact:first-line {
 .nav-github:hover, .nav-LinkedIn:hover, .nav-resume:hover, .nav-email:hover {
     color: grey
     }
+div.skills:first-line, div.software:first-line, div.contact:first-line {
+    text-decoration: underline;
+    font-weight: bold;
+	}
 .footer-style{
     font-size: 10 px;
     position: absolute;
