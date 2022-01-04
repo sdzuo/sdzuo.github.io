@@ -1,5 +1,7 @@
 html {
 	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
     }
 .layout{
     flex-flow: column;
