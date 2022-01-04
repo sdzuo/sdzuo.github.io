@@ -1,6 +1,11 @@
 html {
 	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
     }
+.layout{
+    flex-flow: column;
+    text-align: center;
+    height: 100%;
+}
 body{
     display: flex;
     flex-flow: column-wrap;
