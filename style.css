@@ -34,7 +34,7 @@ header{
 .contact {
 	display: inline-flex;
 	flex-flow: row wrap;
-	margin: 0.5rem;
+	margin: 1rem;
 	padding-bottom: 3rem;
 	justify-content: space-between;
     }
@@ -67,7 +67,7 @@ header{
 .nav-email{
     }
 .nav-github:hover, .nav-LinkedIn:hover, .nav-resume:hover, .nav-email:hover {
-    color: grey
+    color: grey;
     }
 div.skills:first-line, div.software:first-line, div.contact:first-line {
     text-decoration: underline;
