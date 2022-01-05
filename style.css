@@ -36,7 +36,6 @@ header{
 	flex-flow: row wrap;
 	margin: 1rem;
 	padding-bottom: 3rem;
-	justify-content: space-between;
     }
 .about-me {
     margin: 0px 25px;
