@@ -38,7 +38,7 @@ header{
 	padding-bottom: 3rem;
     }
 .about-me {
-    margin: 0px 25px;
+    margin: 1.6rem;
     }
 .about-me-text{
     text-align: center;
@@ -66,7 +66,7 @@ header{
 .nav-email{
     }
 .nav-github:hover, .nav-LinkedIn:hover, .nav-resume:hover, .nav-email:hover {
-    color: grey;
+    background-color: grey;
     }
 div.skills:first-line, div.software:first-line, div.contact:first-line {
     text-decoration: underline;
