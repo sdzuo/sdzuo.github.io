@@ -30,6 +30,7 @@ header{
 .skills-title{
 	text-decoration:underline;
 	font-weight:bold;
+ }
 .skills {
      list-style-type:none;
      display: inline-flex;
