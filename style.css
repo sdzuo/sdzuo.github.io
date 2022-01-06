@@ -64,7 +64,6 @@ a{
     }
 a:hover{
     color: rgb(89, 122, 124);
-    transition-delay: 0.5s;
     }
 div.skills:first-line, div.software:first-line, div.contact:first-line {
     text-decoration: underline;
