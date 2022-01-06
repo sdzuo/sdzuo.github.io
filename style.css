@@ -29,8 +29,8 @@ header{
     }
 .skills{
     }
-.software {
-    }
+/* .software {
+    }  */
 .contact>div {
 	display: inline-flex;
 	flex-flow: row wrap;
