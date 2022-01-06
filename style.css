@@ -30,7 +30,8 @@ header{
 .skills{
      list-style-type:none;
      display: inline-flex;
-     margin: 1rem;
+     margin: 2px;
+     padding: 3px;
      background-color: hsl(240, 100%, 90%, 0.7);
     }
 /* .software {
