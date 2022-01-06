@@ -27,7 +27,7 @@ header{
 	font-size: 1.5rem;
 	margin: 0px;
     }
-.skills{
+.skills ul li{
      list-style-type:none;
      display: inline-flex;
      margin: 2px;
