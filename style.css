@@ -57,11 +57,12 @@ header{
     font-family: Raleway, monospace;
     font-size: 1.5625rem;
     }
-.nav-github, .nav-LinkedIn, .nav-resume, .nav-email {
+a{
+     color: inherit;
      text-decoration:none;
     }
-.nav-github:hover, .nav-LinkedIn:hover, .nav-resume:hover, .nav-email:hover {
-    color: black .5s;
+a:hover{
+    color: rgb(89, 122, 124) .5s;
     }
 div.skills:first-line, div.software:first-line, div.contact:first-line {
     text-decoration: underline;
