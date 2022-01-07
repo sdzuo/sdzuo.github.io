@@ -34,7 +34,7 @@ header{
 .skills>li {
      list-style-type:none;
      display: inline-flex;
-     margin: 1rem;
+     margin: 0.7rem;
      padding: 0.5rem;
      background-color: hsl(240, 100%, 90%, 0.7);
     }
