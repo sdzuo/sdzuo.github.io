@@ -31,7 +31,7 @@ header{
 	text-decoration:underline;
 	font-weight:bold;
  }
-.skills {
+.skills>li {
      list-style-type:none;
      display: inline-flex;
      margin: 1rem;
