@@ -45,7 +45,7 @@ header{
 	display: inline-flex;
 	flex-flow: row wrap;
 	margin: 1rem;
-	padding-bottom: 3rem;
+	padding-bottom: 2.5rem;
     }
 .about-me {
     margin: 1.6rem;
