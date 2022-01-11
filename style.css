@@ -81,3 +81,7 @@ div.software:first-line, div.contact:first-line {
 .footer-style{
     padding-bottom: 1rem;
     }
+@media screen and (max-width: 1024px) {
+	.about-me-text {
+		max-width: 40%;
+	}
