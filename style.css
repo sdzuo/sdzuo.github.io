@@ -27,7 +27,8 @@ header{
 	display: inline-flex;
 	flex-flow: row wrap;
 	margin: 0.75rem;
-	padding-bottom: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 	font-size: 1.25rem;
 	text-decoration: underline;
 }
