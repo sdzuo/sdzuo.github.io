@@ -11,17 +11,18 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', (event) => {
-        // Remove 'index.html' from URL and redirect to '/index.html'
+        // Remove 'index.html' from URL and redirect to '/'
         if (window.location.pathname.endsWith('/index.html')) {
             history.replaceState(null, '', '/');
         }
         
-        // Redirect '/home' to '/index.html'
+        // Redirect '/home' to '/'
         if (window.location.pathname.endsWith('/home')) {
-            window.location.replace('/index.html');
+            history.replaceState(null, '', '/');
         }
     });
 </script>
+
 
   
 </head>
