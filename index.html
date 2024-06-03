@@ -7,6 +7,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/486d4c3887.js" crossorigin="anonymous"></script>
+
+  <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // Remove 'index.html' from URL
+            if (window.location.pathname.endsWith('/index.html')) {
+                history.replaceState(null, '', '');
+            }
+        });
+    </script>
 </head>
 <body class="Raleway-font">
         <main class = "layout">
