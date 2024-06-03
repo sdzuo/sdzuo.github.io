@@ -3,10 +3,11 @@ html {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
     }
-.layout{
+.layout {
     flex-flow: column;
     text-align: center;
     height: 100%;
+    margin: 0 auto; /* Center the container horizontally */
 }
 body{
     display: flex;
@@ -90,7 +91,15 @@ div.software:first-line, div.contact:first-line {
 .footer-style{
     padding-bottom: 1rem;
     }
-@media screen and (max-width: 1024px) {
-	.about-me-text {
-		max-width: 40%;
-	}
+@media screen and (max-width: 768px) {
+    .project-title {
+        font-size: 2rem; /* Adjust the size for mobile devices */
+    }
+}
+
+.project-title {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left; /* Align to the left within its container */
+}
