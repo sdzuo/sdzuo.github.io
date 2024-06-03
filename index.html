@@ -9,14 +9,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/486d4c3887.js" crossorigin="anonymous"></script>
 
-  <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            // Remove 'home.html' from URL
-            if (window.location.pathname.endsWith('/home.html')) {
-                history.replaceState(null, '', '/home');
-            }
-        });
-    </script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        // Remove 'home.html' from URL
+        if (window.location.pathname.endsWith('/home.html')) {
+            history.replaceState(null, '', '/home');
+        }
+
+        // Redirect /home to index.html
+        if (window.location.pathname.endsWith('/home')) {
+            window.location.replace('/index.html');
+        }
+    });
+</script>
+  
 </head>
 <body class="Raleway-font">
         <main class = "layout">
