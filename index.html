@@ -1,109 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title> Home </title>
-  <link rel ="stylesheet" type = "text/css" href = "style.css"> 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/486d4c3887.js" crossorigin="anonymous"></script>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/486d4c3887.js"
+      crossorigin="anonymous"
+    ></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', (event) => {
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
         // Remove 'index.html' from URL and redirect to '/'
-        if (window.location.pathname.endsWith('/index.html')) {
-            history.replaceState(null, '', '/');
+        if (window.location.pathname.endsWith("/index.html")) {
+          history.replaceState(null, "", "/");
         }
-        
+
         // Redirect '/home' to '/'
-        if (window.location.pathname.endsWith('/home')) {
-            history.replaceState(null, '', '/');
+        if (window.location.pathname.endsWith("/home")) {
+          history.replaceState(null, "", "/");
         }
-    });
-</script>
+      });
+    </script>
+  </head>
 
-
-  
-</head>
-<body class="Raleway-font">
-        <main class = "layout">
-         <header class = "header1">
-              Shamil Auwal 
-         </header>
-          <div class = "navpanel">
-                <div>
-                <a href = "index.html">
-                 Home
-                </a>
-                </div>
-                <div>
-                <a href = "projects.html">
-                 Projects
-                </a>
-               </div>
-               <div>
-                <a href = "collection.html">
-                 Collection
-                </a>
-               </div>
-           </div>
-           </div>
-         <div class = "job-title">
-              <h2> Software Engineer </h2>
-          </div>
-          <div>
-              <h3 class = "skills-title">
-                Skills</h3>
-              <ul class = "skills">
-                <li>.NET</li>
-                <li>HTML5 & CSS</li>
-                <li>Angular</li>
-                <li>JavaScript</li>
-                <li>Mathematics</li>
-                <li>Teaching</li>
-              </ul>
-          </div>
-       <!-- <div class = "software">
+  <body class="Raleway-font">
+    <main class="layout">
+      <header class="header1">Shamil Auwal</header>
+      <div class="navpanel">
+        <div>
+          <a href="index.html"> Home </a>
+        </div>
+        <div>
+          <a href="projects.html"> Projects </a>
+        </div>
+        <div>
+          <a href="collection.html"> Collection </a>
+        </div>
+      </div>
+      <div class="job-title">
+        <h2>Software Engineer</h2>
+      </div>
+      <div>
+        <h3 class="skills-title">Skills</h3>
+        <ul class="skills">
+          <li>.NET</li>
+          <li>HTML5 & CSS</li>
+          <li>Angular</li>
+          <li>JavaScript</li>
+          <li>Mathematics</li>
+          <li>Teaching</li>
+        </ul>
+      </div>
+      <!-- <div class = "software">
             <h3>
              Software
             </h3> 
         </div> -->
-        <div class = "about-me">
-            <h3>  
-              About Me
-            </h3>
-          <p class = "about-me-text" > 
-            Former Assistant Language Teacher (ALT) for the JET Program from 2019 to 2022. Graduated with a degree in Applied Mathematics. Currently working as a Sales Support Specialist for a health insurance General Agency (GA).
-          </p>
-       </div>
-       <div class = "contact">
-              <h3>  Contact  </h3>
-              <div class="nav-github">
-               <a href ="https://github.com/sdzuo">
-                <i class="fab fa-github-alt"></i>
-                 Github
-                </a>
-               </div>
-               <div class="nav-LinkedIn">
-               <a href ="https://www.linkedin.com/in/shamil-al/">
-                <i class="fab fa-linkedin"></i>
-                 LinkedIn
-                 </a>
-              </div>
-              <div class="nav-resume">
-               <a href ="resume.docx.pdf">
-                <i class="fas fa-graduation-cap"></i> 
-                 Resume
-                </a>
-               
-              </div>
-               <div class=nav-email>
-                 <a href = "mailto: sdzuojp@gmail.com">
-                  <i class="fas fa-envelope-square"></i>
-                  Email
-                 </a>
-                </div>
+      <div class="about-me">
+        <h3>About Me</h3>
+        <p class="about-me-text">
+          Former Assistant Language Teacher (ALT) for the JET Program from 2019
+          to 2022. Graduated with a degree in Applied Mathematics. Currently
+          working as a Sales Support Specialist for a health insurance General
+          Agency (GA).
+        </p>
+      </div>
+      <div class="contact">
+        <h3>Contact</h3>
+        <div class="nav-github">
+          <a href="https://github.com/sdzuo">
+            <i class="fab fa-github-alt"></i>
+            Github
+          </a>
         </div>
-</main>
-</body>
+        <div class="nav-LinkedIn">
+          <a href="https://www.linkedin.com/in/shamil-al/">
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+          </a>
+        </div>
+        <div class="nav-resume">
+          <a href="resume.docx.pdf">
+            <i class="fas fa-graduation-cap"></i>
+            Resume
+          </a>
+        </div>
+        <div class="nav-email">
+          <a href="mailto: sdzuojp@gmail.com">
+            <i class="fas fa-envelope-square"></i>
+            Email
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
