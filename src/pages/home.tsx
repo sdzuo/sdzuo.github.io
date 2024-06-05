@@ -1,5 +1,4 @@
 //src/pages/Home.tsx
-import React from "react";
 import "../style.css"; // Import the CSS file
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";

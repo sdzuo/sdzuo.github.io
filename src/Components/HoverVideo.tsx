@@ -1,5 +1,5 @@
 // src/components/HoverVideo.tsx
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./HoverVideo.css"; // Import the CSS file
 
 interface HoverVideoProps {
