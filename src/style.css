@@ -52,8 +52,6 @@ header {
   border-radius: 10px;
   padding-right: 0.5rem;
 }
-/* .software {
-    }  */
 .contact > div {
   display: inline-flex;
   flex-flow: row wrap;
@@ -106,4 +104,17 @@ div.contact:first-line {
   font-weight: bold;
   text-decoration: underline;
   text-align: left; /* Align to the left within its container */
+}
+
+.soon {
+  margin: 1.5rem;
+  border-radius: 10px;
+  /* Slightly rounded edges */
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover */
+}
+
+.soon:hover {
+  transform: scale(1.1);
+  /* Expand the image on hover */
 }

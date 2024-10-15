@@ -5,7 +5,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
+import resume from "../assets/resume.pdf";
 library.add(fab, fas);
 
 const Home = () => {
@@ -28,9 +28,8 @@ const Home = () => {
           <h3 className="skills-title">Skills</h3>
           <ul className="skills">
             <li>.NET</li>
-            <li>HTML5 & CSS</li>
+            <li>React</li>
             <li>Angular</li>
-            <li>JavaScript</li>
             <li>Mathematics</li>
             <li>Teaching</li>
           </ul>
@@ -38,10 +37,9 @@ const Home = () => {
         <div className="about-me">
           <h3>About Me</h3>
           <p className="about-me-text">
-            Former Assistant Language Teacher (ALT) for the JET Program from
-            2019 to 2022. Graduated with a degree in Applied Mathematics.
-            Currently working as a Sales Support Specialist for a health
-            insurance General Agency (GA).
+            Self-taught end-to-end developer with a passion for building and deploying web applications from the ground up. 
+            From designing intuitive user interfaces to managing backend servers and ensuring robust security.
+            My approach combines creativity with technical expertise, allowing me to bring ideas to life efficiently and precisely.
           </p>
         </div>
         <div className="contact">
@@ -57,7 +55,7 @@ const Home = () => {
             </a>
           </div>
           <div className="nav-resume">
-            <a href="src/assets/resume.pdf">
+            <a href={resume}>
               <FontAwesomeIcon icon="graduation-cap" /> Resume
             </a>
           </div>
