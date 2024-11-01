@@ -5,7 +5,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume_2024.pdf";
 library.add(fab, fas);
 
 const Home = () => {
