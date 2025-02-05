@@ -5,7 +5,6 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import resume from "../assets/resume_2024.pdf";
 library.add(fab, fas);
 
 const Home = () => {
@@ -55,7 +54,7 @@ const Home = () => {
             </a>
           </div>
           <div className="nav-resume">
-            <a href={resume}>
+            <a href="https://docs.google.com/document/d/1o0O9I6fcGqpV5mmxDO4cmy5v5ys82YHzJC4-Px4eJlk/edit?usp=sharing">
               <FontAwesomeIcon icon="graduation-cap" /> Resume
             </a>
           </div>
