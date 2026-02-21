@@ -2,7 +2,7 @@ import "../style.css";
 import { Link } from "react-router-dom";
 import demovid from "../assets/URLgoat-demo.mp4";
 import HoverVideo from "@/Components/HoverVideo";
-import soon from "../assets/comingsoon.jpg";
+import soon from "../assets/Spicybengal.png";
 
 
 const Projects = () => {
