@@ -1,6 +1,21 @@
 # Portfolio Redesign and Refactor Plan
 
-> Status: implementation in progress on `portfolio-redesign`. The user approved implementation on 2026-07-20. Deployment and remote pushes still require explicit user approval.
+> Status: core redesign implemented on `portfolio-redesign`; approved signal-polish refinements are being implemented on `portfolio-signal-polish`. Deployment and remote pushes still require explicit user approval.
+
+## Approved signal-polish refinement
+
+- Work is isolated on `portfolio-signal-polish`; it remains a static React/Vite SPA and retains the existing content, routing, assets, dark editorial theme, and deployment scripts.
+- Retain Georgia for display headings while using Inter for body and UI typography.
+- Add the verified, non-animated status: **Open to freelance & side projects**.
+- Keep Selected Work in the SPA. Add compact inline SVG icons only to interactive hero actions and project links, plus restrained hover/active feedback that respects reduced-motion preferences.
+
+## Approved V0 visual integration
+
+- Retain the editorial structure and Georgia display typography while updating centralized CSS tokens to the V0-inspired charcoal/navy, cyan, and coral palette.
+- Keep the cyan-to-peach gradient on the surname as a deliberate portfolio signature.
+- Use pill-shaped hero buttons, accessible icon-only GitHub/LinkedIn/Email controls, and restrained interaction feedback.
+- Add inline SVG icons to every existing skill tag while preserving the verified skills, their grouping, wording, order, and responsive grid.
+- Update the contact heading to the two-line editorial phrase: **Let’s build** / **together.**
 
 ## 1. Executive summary
 

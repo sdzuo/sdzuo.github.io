@@ -96,7 +96,7 @@ export function ContactSection() {
           <h2 id="contact-title">
             Let’s build
             <br />
-            <em>something useful.</em>
+            <em>together.</em>
           </h2>
         </div>
         <div>

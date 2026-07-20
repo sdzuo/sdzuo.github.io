@@ -29,7 +29,15 @@ export function ProjectCard({
           target="_blank"
           rel="noreferrer"
         >
-          {project.linkLabel} <span aria-hidden="true">↗</span>
+          {project.linkLabel}
+          <svg
+            aria-hidden="true"
+            className="text-link__icon"
+            focusable="false"
+            viewBox="0 0 16 16"
+          >
+            <path d="M5 11 11 5M6 5h5v5" />
+          </svg>
         </a>
       </div>
       <ProjectMedia project={project} />

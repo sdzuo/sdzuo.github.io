@@ -1,17 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;750&display=swap");
+
 :root {
-  --color-background: #1c1f24;
-  --color-background-alt: #20252c;
-  --color-surface: #232a34;
-  --color-surface-hover: #293342;
-  --color-text-primary: #d5dbe0;
-  --color-text-secondary: #98b2c1;
-  --color-text-muted: #71889a;
-  --color-accent-cyan: #27d1ee;
-  --color-accent-blue: #5091c0;
-  --color-accent-teal: #42bac7;
-  --color-accent-peach: #e3a98d;
-  --color-border: #344252;
-  --color-border-subtle: #2a3542;
+  --color-background: #0a0e14;
+  --color-background-alt: #0f1620;
+  --color-surface: #121924;
+  --color-surface-hover: #18212e;
+  --color-text-primary: #e8eef5;
+  --color-text-secondary: #93a4b8;
+  --color-text-muted: #62748c;
+  --color-accent-cyan: #29d3ee;
+  --color-accent-blue: #12b7d4;
+  --color-accent-teal: #29d3ee;
+  --color-accent-peach: #ff8f6b;
+  --color-border: #2f3e50;
+  --color-border-subtle: #232f3e;
   --canvas: var(--color-background);
   --paper: var(--color-background-alt);
   --ink: var(--color-text-primary);
@@ -152,6 +154,23 @@ video {
   padding: clamp(5rem, 12vw, 10rem) 0 clamp(5rem, 10vw, 8rem);
   border-bottom: 1px solid var(--line);
 }
+.availability-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1.1rem;
+  color: #a9d9bb;
+  font-size: 0.77rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+.availability-status__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #66c987;
+  box-shadow: 0 0 0 3px #66c98720;
+}
 .hero-grid,
 .section-grid,
 .contact-layout {
@@ -224,18 +243,36 @@ h1 em {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
 }
 .button {
   display: inline-flex;
   align-items: center;
+  gap: 0.5rem;
   min-height: 2.85rem;
   padding: 0.7rem 1rem;
   border: 1px solid var(--ink);
-  border-radius: 2px;
+  border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
   font-size: 0.92rem;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+.button__icon,
+.text-link__icon {
+  width: 1rem;
+  height: 1rem;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+  transition: transform 160ms ease;
 }
 .button--primary {
   background: var(--color-accent-cyan);
@@ -243,13 +280,54 @@ h1 em {
   color: var(--color-background);
 }
 .button--primary:hover {
-  background: #5de0f4;
-  border-color: #5de0f4;
+  background: #62e0f2;
+  border-color: #62e0f2;
+  transform: translateY(-2px);
 }
 .button--secondary:hover {
   color: var(--color-accent-cyan);
   border-color: var(--color-accent-cyan);
   background: var(--color-surface);
+  transform: translateY(-2px);
+}
+.button:active {
+  transform: translateY(0);
+}
+.button:hover .button__icon {
+  transform: translateX(2px);
+}
+.hero-socials {
+  display: flex;
+  gap: 0.55rem;
+  margin-bottom: 2rem;
+}
+.social-button {
+  display: inline-grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+.social-button:hover {
+  background: var(--color-surface-hover);
+  border-color: var(--color-accent-cyan);
+  color: var(--color-accent-cyan);
+  transform: translateY(-2px);
+}
+.social-button:active {
+  transform: translateY(0);
+}
+.social-button__icon {
+  width: 1.1rem;
+  height: 1.1rem;
 }
 .hero-stack {
   margin: 0;
@@ -318,9 +396,19 @@ h1 em {
   font-size: 0.8rem;
 }
 .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   color: var(--teal);
   font-weight: 750;
   text-underline-offset: 0.25em;
+  transition: color 160ms ease;
+}
+.text-link:hover {
+  color: #5de0f4;
+}
+.text-link:hover .text-link__icon {
+  transform: translate(2px, -2px);
 }
 .project-media {
   overflow: hidden;
@@ -363,6 +451,47 @@ h1 em {
 }
 .skill-group .tag-list {
   margin: 0;
+}
+.skill-group .tag-list .skill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  background: var(--color-surface);
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+.skill-group .tag-list .skill-tag:hover {
+  background: var(--color-surface-hover);
+  border-color: var(--color-accent-cyan);
+  color: var(--color-text-primary);
+  transform: translateY(-2px);
+}
+.skill-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.65;
+  color: var(--color-accent-blue);
+}
+.skill-tag:hover .skill-icon {
+  color: var(--color-accent-cyan);
+}
+.skill-icon--mark rect {
+  fill: color-mix(in srgb, currentColor 16%, transparent);
+}
+.skill-icon--mark text {
+  fill: currentColor;
+  stroke: none;
+  font-family: var(--sans);
+  font-size: 6px;
+  font-weight: 750;
 }
 .contact-layout {
   align-items: end;
