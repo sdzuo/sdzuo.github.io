@@ -1,0 +1,6 @@
+# Project-scoped Codex settings for the portfolio redesign.
+[agents]
+# Root plus at most three direct workers; no recursive delegation.
+max_threads = 3
+max_depth = 1
+interrupt_message = true
